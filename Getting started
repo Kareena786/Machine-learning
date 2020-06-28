@@ -1,0 +1,34 @@
+import sys
+print ('Python:{}'.format(sys.version))
+import scipy
+print ('Scipy:{}'.format(scipy._version_))
+import numpy
+print ('Numpy:{}'.format(numpy._version_))
+import matplotlib
+print('Matplotlib:{}'.format(matplotlib._version_))
+import pandas
+print('Pandas:{}'.format(pandas._version_))
+import sklearn
+print ('Sklearn:{}'.format(sklearn._version_))
+
+import pandas
+from pandas import read_csv
+from pandas.plotting import scatter_matrix
+from matplotlib import pyplot
+from sklearn.model_selection import train_test.split
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection StratifiedKFold
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.metrices import accuracy_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+from sklearn import model_selection
+from sklearn.ensemble import VotingClassifier
+
+
+
